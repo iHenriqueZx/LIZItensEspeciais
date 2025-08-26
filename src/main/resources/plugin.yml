@@ -1,0 +1,10 @@
+name: LIZItensEspeciais
+version: '${project.version}'
+main: br.com.henriplugins.LIZItensEspeciais
+api-version: '1.19'
+depend: [ItemsAdder, AuraSkills, Vault]
+commands:
+  lizitem:
+    description: Dá um item especial para um jogador
+    usage: /lizitem <nick> <quantia> <item>
+    permission: lizitensespeciais.lizitem
